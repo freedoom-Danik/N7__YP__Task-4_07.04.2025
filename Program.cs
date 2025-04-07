@@ -4,7 +4,9 @@
     {
         static void Main()
         {
-
+            Console.Write("input String ");
+            string input = Console.ReadLine().Replace(" ", "");
+            Console.Write(input);
         }
     }
 }
